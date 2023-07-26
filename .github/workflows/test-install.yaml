@@ -12,7 +12,7 @@ jobs:
           path: ~/.dotfiles-debian
       - name: Move to installation script
         run: cd
-      - name: Move to installation script
+      - name: List to installation script
         run: ls -lah
       - name: Move to installation script
         run: cd ~/.dotfiles-debian
