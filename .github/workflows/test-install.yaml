@@ -7,14 +7,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Move to home dir
-        run: cd
       - uses: actions/checkout@v3
-      - name: List to installation script
-        run: ls -lah
-      - name: Move to installation script
-        run: cd ~/.dotfiles-debian
-      - name: Move to installation script
-        run: ls
       - name: Run installation script
         run: sh install
